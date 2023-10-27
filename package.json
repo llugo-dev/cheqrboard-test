@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "cypress open -b chrome",
-    "start": "cypress run --record --runner-ui"
+    "start": "cypress run --record -b chrome"
   },
   "keywords": [
     "cypress"
